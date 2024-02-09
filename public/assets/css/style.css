@@ -77,16 +77,8 @@ footer , .pagination {
 }
 
 .flash-emailContact {
-<<<<<<< HEAD
   color: green;
   font-weight: bold;
   text-align: center;
   margin: 1rem 0;
-=======
-  padding: 1rem;
-  color: brown;
-  background-color: chartreuse;
-  font-weight: bold;
-  text-align: center;
->>>>>>> 6ef4c107dc3941c07c18a34b0c3d006e80899420
 }
