@@ -6,10 +6,16 @@
 			</li>
 		{% endif %}
 
+<<<<<<< HEAD
 <li>
 	<a href="{{ path('app_contact') }}">Contact</a>
 </li>
 
+=======
+		<li>
+			<a href="{{ path('app_contact') }}">Contact</a>
+		</li>
+>>>>>>> 6ef4c107dc3941c07c18a34b0c3d006e80899420
 
 		{% if is_granted('IS_AUTHENTICATED_FULLY') %}
 			<li>
@@ -25,7 +31,5 @@
 			</li>
 			<li><img src="{{ asset('assets/images/avatar.png') }}" alt="" class="avatar"></li>
 		{% endif %}
-
 	</ul>
 </nav>
-
